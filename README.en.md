@@ -1,6 +1,6 @@
 # Microduck Replica
 
-**English** · [简体中文](README.md)
+[Русский](README.md) · **English** · [简体中文](README.zh-CN.md)
 
 > A third-party reconstruction study of [Pollen Robotics' Microduck](https://pollen-robotics.com/microduck/).
 > Assembly drawings, exploded views, CAD-importable assemblies, and a complete
