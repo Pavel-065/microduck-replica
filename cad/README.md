@@ -1,16 +1,20 @@
-# 这个目录是什么
+<a id="这个目录是什么"></a>
+# Что находится в этом каталоге
 
-**已应用世界变换的 STL** —— 导入 CAD 就是装好的样子，不用自己摆位置。15 个部件 + 整机单文件 + 零件对照表。
-单位毫米。能看、能量、能切片，**但改不动**。
+[Исходный документ на китайском](README.original.md)
 
-## 你可能在找的不在这里
+**STL с уже применёнными мировыми преобразованиями** — после импорта в CAD модель сразу выглядит собранной, расставлять детали вручную не нужно. 15 компонентов + вся сборка одним файлом + таблица соответствия деталей.
+Единицы — миллиметры. Можно просматривать, измерять и нарезать для печати, **но редактировать геометрию нельзя**.
 
-| 要什么 | 去哪 |
+<a id="你可能在找的不在这里"></a>
+## Возможно, нужное вам находится в другом месте
+
+| Что нужно | Где искать |
 |---|---|
-| **直接打印**，不想看图 | 🖨️ [拓竹 MakerWorld · microduck 飞特版](https://makerworld.com.cn/zh/models/2963569-microduck#profileId-3478428) 一键切片；或下 [Bambu Studio 工程 `.3mf`](https://github.com/fanhao375/microduck-replica-cad/tree/master/打印)（5 盘排好的，4.9 MB） |
-| **可编辑的 SolidWorks 源文件** | 📦 [microduck-replica-cad](https://github.com/fanhao375/microduck-replica-cad) 的 **Releases 页**（右边栏，**不在文件列表里**）。飞特 HD-1910 版 v2.0，原版 v1.0 |
-| 单个零件的 STL、要打几份 | [`../print/`](../print/) |
-| 装配步骤 | [装配安装说明书 PDF](https://github.com/fanhao375/microduck-replica-cad/blob/master/安装说明书/microduck装配安装说明书.pdf)（21 页） |
+| **Сразу печатать**, без изучения чертежей | 🖨️ [Bambu MakerWorld · microduck, версия с Feetech](https://makerworld.com.cn/zh/models/2963569-microduck#profileId-3478428) — нарезка одним нажатием; либо скачайте [проект Bambu Studio `.3mf`](https://github.com/fanhao375/microduck-replica-cad/tree/master/打印) (детали разложены по 5 столам, 4.9 MB) |
+| **Редактируемые исходники SolidWorks** | 📦 **Страница Releases** репозитория [microduck-replica-cad](https://github.com/fanhao375/microduck-replica-cad) (в правой панели, **не в списке файлов**). Версия с Feetech HD-1910 — v2.0, исходная версия — v1.0 |
+| STL отдельных деталей и количество экземпляров для печати | [`../print/`](../print/) |
+| Порядок сборки | [Инструкция по сборке, PDF](https://github.com/fanhao375/microduck-replica-cad/blob/master/安装说明书/microduck装配安装说明书.pdf) (21 страница) |
 
-> 为什么源文件不放 git 里：374 MB 的 SolidWorks 二进制，git 存它不能 diff 只能堆，改三次仓库就 1 GB 而且删不掉。
-> Releases 附件不计入仓库体积。
+> Почему исходники не лежат в git: это 374 MB двоичных файлов SolidWorks. git не может строить для них diff и лишь накапливает версии; после трёх изменений репозиторий вырастет до 1 GB, и простое удаление файлов не освободит место.
+> Вложения Releases не входят в размер репозитория.
